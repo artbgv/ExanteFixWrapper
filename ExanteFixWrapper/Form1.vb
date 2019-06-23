@@ -216,6 +216,7 @@ Public Class Form1
         ListViewOrders.Columns.Add("Позиция", 80, HorizontalAlignment.Left)
         ListViewOrders.Columns.Add("Средняя цена", 80, HorizontalAlignment.Left)
         ListViewOrders.Columns.Add("Прибыль/Убыток", 120, HorizontalAlignment.Left)
+        ExanteIDComboBox1.SelectedItem = "BTC.EXANTE"
         Me.canResize = False
         Me.Width = 1350
         Me.Height = 850
